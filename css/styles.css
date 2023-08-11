@@ -1,3 +1,32 @@
+/* CUSTOM-PROPS */
+:root {
+  --accent-color: #2bd0d0;
+  --text-color: #9e9aa8;
+  --black-color: #34313d;
+  --cta-form-color: #4b3f6b;
+  --statistics-item-color: #3a3054;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+  url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+  url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,11 +46,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
   background-color: #fff;
-  color: #222;
+  color: var(--black-color);
 }
 
 img {
