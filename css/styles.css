@@ -1,6 +1,7 @@
 /* CUSTOM-PROPS */
 :root {
   --accent-color: #2bd0d0;
+  --light-blue: #9ae3e3;
   --text-color: #9e9aa8;
   --black-color: #34313d;
   --cta-form-color: #4b3f6b;
@@ -49,6 +50,7 @@ body {
   font-family: "Poppins", "Arial", sans-serif;
   font-size: 15px;
   line-height: 26px;
+  font-weight: bold;
   background-color: #fff;
   color: var(--black-color);
 }
@@ -113,6 +115,99 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
+
+/* SITE-HEADER */
+
+.site-header {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.site-header--container {
+  display: flex;
+  align-items: center;
+}
+
+
+.site-logo {
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-right: 45px;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.sitenav__link {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  line-height: normal;
+}
+
+.sitenav__link:hover {
+  color: var(--black-color);
+}
+
+.sitenav__link:active {
+  opacity: 0.8;;
+}
+
+.login-signup-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.login-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  line-height: normal;
+  margin-right: 37px;
+}
+
+.login-link:hover {
+  color: var(--black-color);
+}
+
+.login-link:active {
+  opacity: 0.8;
+}
+
+.signup {
+  display: block;
+  padding: 8px 24px;
+  border-radius: 28px;
+  background-color: var(--accent-color);
+  text-decoration: none;
+  color: #fff;
+  line-height: normal;
+}
+
+.signup:active {
+  background-color: var(--light-blue);
+}
+
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
