@@ -427,6 +427,7 @@ select:-webkit-autofill:focus {
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -1px;
+  text-transform: capitalize;
 }
 
 .statistics__text {
@@ -505,6 +506,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 12px;
   font-size: 22px;
   line-height: normal;
+  text-transform: capitalize;
 }
 
 .statistics__indication {
@@ -520,7 +522,7 @@ select:-webkit-autofill:focus {
   background-size: cover;
 }
 
-.cta--container {
+.cta__container {
   display: flex;
   flex-direction: column;
   align-items: center;
