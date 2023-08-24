@@ -483,7 +483,7 @@ select:-webkit-autofill:focus {
   border-radius: 5px;
 }
 
-.statistics__img {
+.statistic__img {
   position: absolute;
   left: 32px;
   top: 0;
@@ -497,11 +497,11 @@ select:-webkit-autofill:focus {
   background-color: var(--statistics-item-color);
 }
 
-.statistics__information {
+.statistic__information {
   padding: 40px 32px;
 }
 
-.statistics__title {
+.statistic__title {
   margin-top: 33px;
   margin-bottom: 12px;
   font-size: 22px;
@@ -509,7 +509,7 @@ select:-webkit-autofill:focus {
   text-transform: capitalize;
 }
 
-.statistics__indication {
+.statistic__indication {
   color: var(--text-color);
   font-weight: 500;
 }
@@ -549,7 +549,7 @@ select:-webkit-autofill:focus {
   background-color: var(--footer-bg-color);
 }
 
-.site-footer--container {
+.site-footer__container {
   display: flex;
   justify-content: space-between;
 }
