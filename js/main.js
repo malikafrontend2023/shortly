@@ -20,6 +20,9 @@ if (elSearchLink) {
       evt.target.classList.add('search-link__copy-button--copied');
     }
 
+    // Copy search link to clipboard
+    navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
+
     // Reset button text and class after 1 second
     setTimeout( function () {
       evt.target.textContent = 'Copy';
