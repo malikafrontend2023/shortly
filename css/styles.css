@@ -401,6 +401,10 @@ select:-webkit-autofill:focus {
   min-width: 103px;
 }
 
+.search-link__copy-button--copied {
+  background-color: #3a3054;
+}
+
 /* STATISTICS */
 
 .statistics--container {
