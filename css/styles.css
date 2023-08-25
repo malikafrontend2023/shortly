@@ -611,6 +611,7 @@ select:-webkit-autofill:focus {
   line-height: normal;
   letter-spacing: -0.234px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .site-footer__menu-link:hover {
